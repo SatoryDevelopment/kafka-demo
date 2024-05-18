@@ -3,3 +3,7 @@ server:
 
 spring:
   application: kafka-demo
+  kafka:
+    bootstrap-servers: "localhost:19092, localhost:19093"
+    consumer:
+      group-id: "kafka-demo-group"
