@@ -15,4 +15,5 @@ and also received by Kafka Consumer in this app.
 4. Send a request with Postman or other sending services. 
 URL: `localhost:8080/message/send`
 HTTP method: `POST`
+BODY: `Check the structure of MessageRequest object`
 5. Check for messages in the application for successfully sent message.
