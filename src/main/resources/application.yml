@@ -7,3 +7,7 @@ spring:
     bootstrap-servers: "localhost:19092, localhost:19093"
     consumer:
       group-id: "kafka-demo-group"
+
+kafka-demo:
+  kafka:
+    topic: "basic-message"
